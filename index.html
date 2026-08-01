@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Backdrop Boutique by Classy Girl Habits | Luxury Event Styling & Custom Backdrops</title>
+  <meta name="description" content="Luxury custom backdrops, balloon installations, and event styling designed to transform every celebration into an unforgettable picture-perfect experience." />
+
+  <!-- Google Typography Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. NAVIGATION HEADER
+       ========================================================================== -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand-logo" id="header-logo-link">
+        <span class="logo-main">The Backdrop Boutique</span>
+        <span class="logo-sub">by Classy Girl Habits</span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#story" class="nav-link">Our Story</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#calculator" class="nav-link">Estimator</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+          <li><a href="#booking" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="https://instagram.com/thebackdropboutique__" target="_blank" rel="noopener noreferrer" class="instagram-badge">
+          <span>@thebackdropboutique__</span>
+        </a>
+        <a href="#booking" class="btn btn-primary" style="padding: 0.65rem 1.4rem; font-size: 0.82rem;">Book Event</a>
+
+        <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         2. CINEMATIC HERO SECTION
+         ========================================================================== -->
+    <section id="home" class="hero-section">
+      <!-- Background Slideshow -->
+      <div class="hero-bg-media">
+        <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1920&q=85');"></div>
+        <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1920&q=85');"></div>
+      </div>
+
+      <!-- Hero Radial Lighting -->
+      <div class="hero-overlay"></div>
+
+      <!-- Floating Sparkles Canvas -->
+      <canvas id="hero-particles"></canvas>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span>✦ Luxury Backdrop & Celebration Styling</span>
+        </div>
+
+        <h1 class="hero-headline reveal">
+          Creating Picture-Perfect
+          <span class="gradient-text">Celebrations & Memories</span>
+        </h1>
+
+        <p class="hero-subheading reveal">
+          Luxury custom backdrops, organic balloon installations, and editorial event styling designed to transform every moment into an unforgettable experience.
+        </p>
+
+        <div class="hero-actions reveal">
+          <a href="#gallery" class="btn btn-primary">
+            <span>View Our Portfolio</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#booking" class="btn btn-secondary">
+            <span>Book Your Event</span>
+          </a>
+        </div>
+
+        <!-- Quick Highlight Bar -->
+        <div class="hero-highlights reveal">
+          <div class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Luxury Custom Backdrops</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Organic Balloon Artistry</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Bespoke Floral Walls</span>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">✦</span>
+            <span>Editorial Tablescapes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. OUR STORY SECTION
+         ========================================================================== -->
+    <section id="story" class="story-section section-padding">
+      <div class="container">
+        <div class="story-grid">
+          <div class="story-media-stack reveal">
+            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=85" alt="Luxury Birthday Backdrop Setup" class="story-img-main" />
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=85" alt="Custom Balloon & Floral Details" class="story-img-floating" />
+
+            <div class="story-experience-badge">
+              <span class="experience-number">500+</span>
+              <span class="experience-label">Events Styled</span>
+            </div>
+          </div>
+
+          <div class="story-content reveal">
+            <div class="section-eyebrow">The Boutique Distinction</div>
+            <h2>Designing Moments That Last Forever</h2>
+
+            <p class="story-lead">
+              At <strong>The Backdrop Boutique by Classy Girl Habits</strong>, we believe every milestone celebration deserves a breathtaking focal point.
+            </p>
+
+            <p class="story-description">
+              From intimate bridal showers and opulent weddings to glamorous birthday galas and corporate activations, our passion lies in bringing vision into reality. We blend magazine-worthy aesthetic proportions, soft lighting, organic balloon sculptures, and bespoke floral architecture so your event looks as magical in person as it does in every photograph.
+            </p>
+
+            <!-- Feature Cards Grid -->
+            <div class="story-features-grid">
+              <div class="story-feature-card">
+                <div class="feature-card-header">
+                  <div class="feature-icon-wrapper">✦</div>
+                  <h3 class="feature-card-title">Custom Designs</h3>
+                </div>
+                <p class="feature-card-desc">Tailored color stories, custom arch shapes, and branded neon accents designed specifically for your event.</p>
+              </div>
+
+              <div class="story-feature-card">
+                <div class="feature-card-header">
+                  <div class="feature-icon-wrapper">✦</div>
+                  <h3 class="feature-card-title">Premium Materials</h3>
+                </div>
+                <p class="feature-card-desc">High-grade double-stuffed balloons, lush silk florals, shimmer panels, and seamless velvet drapery.</p>
+              </div>
+
+              <div class="story-feature-card">
+                <div class="feature-card-header">
+                  <div class="feature-icon-wrapper">✦</div>
+                  <h3 class="feature-card-title">Luxury Styling</h3>
+                </div>
+                <p class="feature-card-desc">White-glove setup, precise optical symmetry, and ambient photogenic lighting placement.</p>
+              </div>
+
+              <div class="story-feature-card">
+                <div class="feature-card-header">
+                  <div class="feature-icon-wrapper">✦</div>
+                  <h3 class="feature-card-title">Picture-Perfect</h3>
+                </div>
+                <p class="feature-card-desc">Creating iconic, instagrammable photo stations that leave an everlasting impression on your guests.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. SIGNATURE SERVICES SECTION
+         ========================================================================== -->
+    <section id="services" class="services-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Tailored Celebrations</span>
+          <h2 class="section-title">Signature Event Styling Services</h2>
+          <p class="section-subtitle">Exquisite design collections tailored to elevate your milestone occasions</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Luxury Backdrops -->
+          <div class="service-card reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=85" alt="Luxury Event Backdrop" class="service-img" />
+              <span class="service-badge">Most Popular</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Luxury Event Backdrops</h3>
+              <p class="service-description">Bespoke multi-panel arch sets, shimmer walls, custom acrylic panels, and velvet drapery configured to create an enchanting focal backdrop.</p>
+              <ul class="service-features-list">
+                <li>Multi-tier wooden & shimmer arch combinations</li>
+                <li>Custom 3D acrylic lettering & custom graphics</li>
+                <li>Integrated warm backdrop accent spotlights</li>
+              </ul>
+              <div class="service-footer">
+                <span class="service-price">Custom Quotes</span>
+                <a href="#booking" class="service-btn">Inquire Now →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Organic Balloon Installations -->
+          <div class="service-card reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85" alt="Balloon Installations" class="service-img" />
+              <span class="service-badge">Signature Art</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Balloon Installations</h3>
+              <p class="service-description">Organic, cascading balloon garlands and balloon walls using biodegradable, premium double-stuffed balloons in custom muted luxury palettes.</p>
+              <ul class="service-features-list">
+                <li>Custom double-stuffed matte color matching</li>
+                <li>Cascading floor-to-ceiling balloon arches</li>
+                <li>Foil accents, orbz & metallic foliage inserts</li>
+              </ul>
+              <div class="service-footer">
+                <span class="service-price">Custom Quotes</span>
+                <a href="#booking" class="service-btn">Inquire Now →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Wedding Ceremony & Reception -->
+          <div class="service-card reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=85" alt="Wedding Ceremony & Reception Styling" class="service-img" />
+              <span class="service-badge">Editorial Wedding</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Weddings & Receptions</h3>
+              <p class="service-description">Dreamy ceremony altars, floral arches, head-table backdrops, and welcome entrance installations tailored for high-end romantic weddings.</p>
+              <ul class="service-features-list">
+                <li>Ceremony floral arches & aisle arrangements</li>
+                <li>Sweetheart table & backdrop coordination</li>
+                <li>Full wedding venue entrance styling</li>
+              </ul>
+              <div class="service-footer">
+                <span class="service-price">Custom Quotes</span>
+                <a href="#booking" class="service-btn">Inquire Now →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Baby Showers & Gender Reveals -->
+          <div class="service-card reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1000&q=85" alt="Baby Showers & Gender Reveals" class="service-img" />
+              <span class="service-badge">Chic Celebrations</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Baby & Bridal Showers</h3>
+              <p class="service-description">Soft pastel arch trios, teddy bear accents, custom neon signage, and elegant dessert display pedestals for welcoming new beginnings.</p>
+              <ul class="service-features-list">
+                <li>Soft ivory, champagne & blush color themes</li>
+                <li>Custom plinth pedestals for cake & sweets</li>
+                <li>Illuminated neon signs ("Oh Baby", "Bride to Be")</li>
+              </ul>
+              <div class="service-footer">
+                <span class="service-price">Custom Quotes</span>
+                <a href="#booking" class="service-btn">Inquire Now →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Birthday Styling -->
+          <div class="service-card reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=1000&q=85" alt="Birthday Styling & Backdrops" class="service-img" />
+              <span class="service-badge">Milestone Parties</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Milestone Birthday Styling</h3>
+              <p class="service-description">High-impact 21st, 30th, 50th, or sweet milestone celebrations featuring giant marquee numbers, shimmer walls, and champagne displays.</p>
+              <ul class="service-features-list">
+                <li>3ft-4ft LED marquee numbers & letters</li>
+                <li>Glamorous champagne wall & bar backdrops</li>
+                <li>Matching photo booth prop styling</li>
+              </ul>
+              <div class="service-footer">
+                <span class="service-price">Custom Quotes</span>
+                <a href="#booking" class="service-btn">Inquire Now →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Corporate & Brand Activations -->
+          <div class="service-card reveal">
+            <div class="service-img-wrapper">
+              <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1000&q=85" alt="Corporate Galas & Brand Activations" class="service-img" />
+              <span class="service-badge">Corporate Luxury</span>
+            </div>
+            <div class="service-content">
+              <h3 class="service-title">Corporate & Brand Galas</h3>
+              <p class="service-description">Professional corporate backdrops, step-and-repeat media walls, product launch displays, and brand activation photo stations.</p>
+              <ul class="service-features-list">
+                <li>Precision corporate color matching & logos</li>
+                <li>Heavy-duty indoor & outdoor backdrop frames</li>
+                <li>Fast professional setup and teardown service</li>
+              </ul>
+              <div class="service-footer">
+                <span class="service-price">Custom Quotes</span>
+                <a href="#booking" class="service-btn">Inquire Now →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. FEATURED MASONRY GALLERY
+         ========================================================================== -->
+    <section id="gallery" class="gallery-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Inspiration Gallery</span>
+          <h2 class="section-title">Featured Celebration Designs</h2>
+          <p class="section-subtitle">Explore our Pinterest-worthy portfolio of recent backdrop installations and event styling</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="gallery-filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All Designs</button>
+          <button class="filter-btn" data-filter="weddings">Weddings</button>
+          <button class="filter-btn" data-filter="birthdays">Birthdays</button>
+          <button class="filter-btn" data-filter="showers">Showers</button>
+          <button class="filter-btn" data-filter="balloons">Balloon Art</button>
+          <button class="filter-btn" data-filter="florals">Florals & Details</button>
+        </div>
+
+        <!-- Masonry Grid -->
+        <div class="gallery-masonry reveal">
+          <div class="gallery-item" data-category="weddings">
+            <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=85" alt="Luxury Wedding Altar Styling" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Wedding Ceremony</span>
+              <h3 class="gallery-title">Ethereal Rose Altar Arch</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="birthdays">
+            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=85" alt="Glamorous Birthday Backdrop" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">30th Birthday Gala</span>
+              <h3 class="gallery-title">Gold Shimmer & Blush Trio</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="balloons">
+            <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1000&q=85" alt="Organic Balloon Arch" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Balloon Installation</span>
+              <h3 class="gallery-title">Champagne Organic Cascade</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="showers">
+            <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1000&q=85" alt="Baby Shower Backdrop" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Baby Shower</span>
+              <h3 class="gallery-title">Soft Ivory & Pearl Dream</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="florals">
+            <img src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?auto=format&fit=crop&w=1000&q=85" alt="Floral Wall Installation" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Floral Installation</span>
+              <h3 class="gallery-title">Bespoke Hydrangea Wall</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="showers">
+            <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1000&q=85" alt="Bridal Shower Tablescape" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Bridal Shower</span>
+              <h3 class="gallery-title">Garden Tea & Soft Drapery</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="weddings">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1000&q=85" alt="Opulent Wedding Tablescape" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Wedding Reception</span>
+              <h3 class="gallery-title">Head Table Ambient Glow</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="birthdays">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=1000&q=85" alt="Milestone Birthday Dessert Display" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Birthday Celebration</span>
+              <h3 class="gallery-title">Sweet 16 Plinth & Neon Backdrop</h3>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="florals">
+            <img src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=1000&q=85" alt="Curtained Event Entrance" />
+            <div class="gallery-overlay">
+              <span class="gallery-category-tag">Grand Entrance</span>
+              <h3 class="gallery-title">Silk Drapery & Fairy Lights</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Zoom Modal -->
+    <div id="gallery-lightbox" class="lightbox-modal">
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close image modal">&times;</button>
+        <img id="lightbox-img" src="" alt="Enlarged design view" />
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         6. INTERACTIVE BACKDROP ESTIMATE CALCULATOR
+         ========================================================================== -->
+    <section id="calculator" class="calculator-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Interactive Planning Tool</span>
+          <h2 class="section-title">Custom Backdrop Price Estimator</h2>
+          <p class="section-subtitle">Build your bespoke event backdrop concept and get an instant estimated styling investment</p>
+        </div>
+
+        <div class="calculator-card reveal">
+          <!-- Options Inputs -->
+          <div class="calc-options-container">
+            <!-- Group 1: Backdrop Style -->
+            <div>
+              <h3 class="calc-group-title">1. Select Backdrop Frame Style</h3>
+              <div class="calc-grid">
+                <button type="button" class="calc-option-btn calc-backdrop-btn selected" data-name="Tri-Panel Arch Backdrop" data-price="450">
+                  <span class="calc-option-icon">🏛️</span>
+                  <span class="calc-option-label">Tri-Arch Set</span>
+                  <span class="calc-option-price">$450</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-backdrop-btn" data-name="Gold Shimmer Wall" data-price="550">
+                  <span class="calc-option-icon">✨</span>
+                  <span class="calc-option-label">Shimmer Wall</span>
+                  <span class="calc-option-price">$550</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-backdrop-btn" data-name="Bespoke Floral Wall" data-price="650">
+                  <span class="calc-option-icon">🌸</span>
+                  <span class="calc-option-label">Floral Wall</span>
+                  <span class="calc-option-price">$650</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-backdrop-btn" data-name="Circle Mesh Frame" data-price="380">
+                  <span class="calc-option-icon">⭕</span>
+                  <span class="calc-option-label">Circle Mesh</span>
+                  <span class="calc-option-price">$380</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Group 2: Balloon Garland -->
+            <div>
+              <h3 class="calc-group-title">2. Choose Organic Balloon Installation</h3>
+              <div class="calc-grid">
+                <button type="button" class="calc-option-btn calc-balloon-btn selected" data-name="Deluxe Organic Balloon Garland" data-price="250">
+                  <span class="calc-option-icon">🎈</span>
+                  <span class="calc-option-label">Half Arch Garland</span>
+                  <span class="calc-option-price">$250</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-balloon-btn" data-name="Full Organic Balloon Frame" data-price="420">
+                  <span class="calc-option-icon">🎈</span>
+                  <span class="calc-option-label">Full Surround</span>
+                  <span class="calc-option-price">$420</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-balloon-btn" data-name="None (Backdrop Only)" data-price="0">
+                  <span class="calc-option-icon">🚫</span>
+                  <span class="calc-option-label">No Balloons</span>
+                  <span class="calc-option-price">$0</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Group 3: Add-ons -->
+            <div>
+              <h3 class="calc-group-title">3. Luxury Add-ons & Accents (Optional)</h3>
+              <div class="calc-grid">
+                <button type="button" class="calc-option-btn calc-addon-btn" data-name="Custom LED Neon Sign" data-price="120">
+                  <span class="calc-option-icon">💡</span>
+                  <span class="calc-option-label">Custom Neon Sign</span>
+                  <span class="calc-option-price">+$120</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-addon-btn" data-name="Fresh Floral Sprays" data-price="180">
+                  <span class="calc-option-icon">🌿</span>
+                  <span class="calc-option-label">Floral Sprays</span>
+                  <span class="calc-option-price">+$180</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-addon-btn" data-name="Cake Pedestal Plinths (Set of 3)" data-price="100">
+                  <span class="calc-option-icon">🎂</span>
+                  <span class="calc-option-label">3 Cake Plinths</span>
+                  <span class="calc-option-price">+$100</span>
+                </button>
+                <button type="button" class="calc-option-btn calc-addon-btn" data-name="Custom Floor Decal Graphics" data-price="150">
+                  <span class="calc-option-icon">✨</span>
+                  <span class="calc-option-label">Custom Floor Decal</span>
+                  <span class="calc-option-price">+$150</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Summary Box -->
+          <div class="calc-summary-box">
+            <div>
+              <h3 class="summary-title">Styling Estimate Summary</h3>
+              <ul id="calc-summary-items" class="summary-item-list">
+                <!-- Dynamically populated via JS -->
+              </ul>
+            </div>
+
+            <div>
+              <div class="summary-total-container">
+                <span class="summary-total-label">Estimated Investment Range</span>
+                <div id="calc-total-price" class="summary-total-amount">$700 - $875</div>
+                <p style="font-size: 0.78rem; color: var(--color-taupe); margin-top: 0.3rem;">*Includes delivery, professional setup, & post-event teardown within service areas.</p>
+              </div>
+
+              <button type="button" id="calc-apply-booking-btn" class="btn btn-primary" style="width: 100%;">
+                <span>Apply Selection to Booking Form</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. EVENT PLANNING PROCESS SECTION
+         ========================================================================== -->
+    <section id="process" class="process-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">How It Works</span>
+          <h2 class="section-title">Our Event Styling Process</h2>
+          <p class="section-subtitle">From initial inspiration to picture-perfect memories, we guide you seamlessly through four simple steps</p>
+        </div>
+
+        <div class="process-grid">
+          <!-- Step 1 -->
+          <div class="process-card reveal">
+            <span class="process-step-number">01</span>
+            <h3 class="process-title">Consultation</h3>
+            <p class="process-desc">Share your event date, venue details, preferred color palette, and inspiration photos through our consultation form.</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="process-card reveal">
+            <span class="process-step-number">02</span>
+            <h3 class="process-title">Custom Design Concept</h3>
+            <p class="process-desc">We curate a bespoke styling proposal featuring proposed backdrop shapes, balloon arrangements, font samples, and color swatches.</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="process-card reveal">
+            <span class="process-step-number">03</span>
+            <h3 class="process-title">White-Glove Setup</h3>
+            <p class="process-desc">Our expert event team arrives on venue location early to handcraft, inflate, align, and light your backdrop to perfection.</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="process-card reveal">
+            <span class="process-step-number">04</span>
+            <h3 class="process-title">Celebrate & Capture</h3>
+            <p class="process-desc">Step into your dream celebration and capture timeless photos with guests. After your event, we return for effortless teardown.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. CLIENT TESTIMONIALS SECTION
+         ========================================================================== -->
+    <section id="testimonials" class="testimonials-section section-padding">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Loved By Our Clients</span>
+          <h2 class="section-title">Client Love & Testimonials</h2>
+          <p class="section-subtitle">Read what hosts, brides, and event planners say about working with The Backdrop Boutique</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"Our backdrop looked absolutely stunning! Everyone at my 30th birthday gala couldn't stop taking photos in front of it. Classy Girl Habits brought my exact vision to life!"</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Client Avatar" class="author-avatar" />
+              <div>
+                <h4 class="author-name">Sophia Martinez</h4>
+                <span class="author-event">30th Birthday Celebration Host</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"The backdrop became everyone's favorite photo spot at our wedding reception! The organic balloons, custom gold arch, and neon sign were total perfection."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=120&q=80" alt="Client Avatar" class="author-avatar" />
+              <div>
+                <h4 class="author-name">Olivia & Ethan Vance</h4>
+                <span class="author-event">Bride & Groom</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">"They brought our baby shower vision to life so beautifully! Professional, punctual, and insanely talented. I wouldn't dream of hosting another event without them."</p>
+            <div class="testimonial-author">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Client Avatar" class="author-avatar" />
+              <div>
+                <h4 class="author-name">Brianna Jenkins</h4>
+                <span class="author-event">Baby Shower Host</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         9. BOOKING SECTION / CONTACT FORM
+         ========================================================================== -->
+    <section id="booking" class="booking-section section-padding">
+      <div class="container">
+        <div class="booking-wrapper reveal">
+          <!-- Info Column -->
+          <div class="booking-info">
+            <span class="section-eyebrow" style="margin-bottom: 0.5rem;">Get In Touch</span>
+            <h2>Let's Create Your Dream Celebration</h2>
+            <p>Tell us about your upcoming event and we'll design a bespoke backdrop that makes every moment unforgettable.</p>
+
+            <div class="contact-details-list">
+              <div class="contact-detail-item">
+                <div class="detail-icon-bg">📸</div>
+                <div>
+                  <span class="detail-label">Instagram Portfolio</span>
+                  <div class="detail-value">
+                    <a href="https://instagram.com/thebackdropboutique__" target="_blank" rel="noopener noreferrer" style="color: var(--color-gold-dark);">@thebackdropboutique__</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon-bg">💌</div>
+                <div>
+                  <span class="detail-label">Direct Inquiry Email</span>
+                  <div class="detail-value">hello@thebackdropboutique.com</div>
+                </div>
+              </div>
+
+              <div class="contact-detail-item">
+                <div class="detail-icon-bg">📍</div>
+                <div>
+                  <span class="detail-label">Service Region</span>
+                  <div class="detail-value">Available for Local & Travel Event Styling</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding: 1.25rem; background: rgba(255, 255, 255, 0.6); border-radius: var(--radius-md); border: 1px solid var(--color-gold-light);">
+              <h4 style="font-family: var(--font-serif); color: var(--color-espresso); margin-bottom: 0.3rem;">📅 Booking Availability Notice</h4>
+              <p style="font-size: 0.85rem; color: var(--color-taupe); margin: 0;">We recommend booking 3–6 weeks in advance to secure your event date and custom props.</p>
+            </div>
+          </div>
+
+          <!-- Form Column -->
+          <div>
+            <form id="event-booking-form" class="booking-form">
+              <h3 style="font-family: var(--font-serif); font-size: 1.6rem; margin-bottom: 1.25rem; color: var(--color-espresso);">Event Inquiry Form</h3>
+
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="booking-name" class="form-label">Full Name *</label>
+                  <input type="text" id="booking-name" class="form-control" placeholder="e.g. Jessica Sterling" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="booking-email" class="form-label">Email Address *</label>
+                  <input type="email" id="booking-email" class="form-control" placeholder="e.g. jessica@example.com" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="booking-phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="booking-phone" class="form-control" placeholder="(555) 000-0000" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="booking-date" class="form-label">Event Date *</label>
+                  <input type="date" id="booking-date" class="form-control" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="booking-type" class="form-label">Event Type *</label>
+                  <select id="booking-type" class="form-control" required>
+                    <option value="" disabled selected>Select event type...</option>
+                    <option value="Birthday">Milestone Birthday</option>
+                    <option value="Wedding">Wedding / Reception</option>
+                    <option value="Baby Shower">Baby Shower / Gender Reveal</option>
+                    <option value="Bridal Shower">Bridal Shower</option>
+                    <option value="Corporate">Corporate / Brand Event</option>
+                    <option value="Other">Other Custom Celebration</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="booking-venue" class="form-label">Venue / City Location</label>
+                  <input type="text" id="booking-venue" class="form-control" placeholder="e.g. Grand Hotel Ballroom or Private Residence" />
+                </div>
+
+                <div class="form-group full-width">
+                  <label class="form-label">Services Interested In</label>
+                  <div class="services-checkbox-grid">
+                    <label class="checkbox-label">
+                      <input type="checkbox" name="service-interest" value="Custom Backdrop" checked />
+                      <span>Custom Backdrop</span>
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" name="service-interest" value="Balloon Garland" checked />
+                      <span>Balloon Garland</span>
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" name="service-interest" value="Floral Wall" />
+                      <span>Floral Wall</span>
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" name="service-interest" value="Neon Sign" />
+                      <span>Neon Sign</span>
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" name="service-interest" value="Plinths & Props" />
+                      <span>Plinths & Props</span>
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form-group full-width">
+                  <label for="booking-notes" class="form-label">Event Vision & Styling Notes</label>
+                  <textarea id="booking-notes" class="form-control" rows="4" placeholder="Tell us about your theme, color palette, or paste links to Pinterest moodboards..."></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                  <button type="submit" class="btn btn-primary" style="width: 100%; padding: 1.1rem;">
+                    <span>Submit Styling Inquiry</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Success Confirmation Modal -->
+  <div id="booking-success-modal" class="form-success-modal">
+    <div class="success-card">
+      <div class="success-icon">✨</div>
+      <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--color-espresso);">Inquiry Received!</h3>
+      <p style="font-size: 1rem; color: var(--color-taupe); margin-bottom: 1.5rem;">Thank you, <span id="modal-client-name" style="font-weight: 700; color: var(--color-espresso);">Guest</span>! We have received your styling details and will respond within 24 hours with custom concept options.</p>
+      <button type="button" id="close-success-modal" class="btn btn-primary">Back to Website</button>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       10. FOOTER SECTION
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo">
+            <span class="logo-main">The Backdrop Boutique</span>
+            <span class="logo-sub">by Classy Girl Habits</span>
+          </a>
+          <p class="footer-tagline">Creating luxury backdrops that turn celebrations into unforgettable experiences and picture-perfect memories.</p>
+          <a href="https://instagram.com/thebackdropboutique__" target="_blank" rel="noopener noreferrer" class="instagram-badge">
+            <span>Follow @thebackdropboutique__</span>
+          </a>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Portfolio Gallery</a></li>
+            <li><a href="#calculator">Price Estimator</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Styling Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Luxury Backdrops</a></li>
+            <li><a href="#services">Organic Balloon Art</a></li>
+            <li><a href="#services">Wedding Styling</a></li>
+            <li><a href="#services">Baby & Bridal Showers</a></li>
+            <li><a href="#services">Corporate Galas</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact & Inquiries</h4>
+          <p style="font-size: 0.9rem; color: var(--color-dusty-rose); margin-bottom: 0.75rem;">Ready to discuss your event?</p>
+          <a href="#booking" class="btn btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.8rem;">Request Quote</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span id="current-year">2026</span> The Backdrop Boutique by Classy Girl Habits. All rights reserved.
+        </div>
+        <div>
+          Luxury Event Backdrop & Celebration Styling
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back-To-Top Button -->
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Interactive JavaScript Engine -->
+  <script src="./script.js"></script>
+</body>
+</html>
